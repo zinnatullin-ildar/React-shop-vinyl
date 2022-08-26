@@ -36,9 +36,9 @@ function Drawer() {
                                     <strong>11 600 руб.</strong>
                                 </li>
                                 <li className="d-flex">
-                                    <span>Налог 13%:</span>
+                                    <span>Налог 20%:</span>
                                     <div></div>
-                                    <strong>1508 руб.</strong>
+                                    <strong>2320 руб.</strong>
                                 </li>
                             </ul>
                             <button className="greenButton">Оформить заказ<img src="/img/arrow.svg" alt="arrow" /> </button>

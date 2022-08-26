@@ -2,6 +2,69 @@ import Card from './components/Card';
 import Header from './components/Header';
 import Drawer from './components/Drawer';
 
+const arr = [
+  {
+    title: 'Depeche Mode - 101 (1988)',
+    price: '4 500 руб.',
+    imageUrl: '/vinyl/Depeche Mode - 101.jpg'
+  },
+  {
+    title: 'Depeche Mode - Songs Of Faith And Devotion (1993)',
+    price: '5 700 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Songs Of Faith And Devotion.jpg'
+  },
+  {
+    title: 'Depeche Mode - Music For The Masses (1987)',
+    price: '5 800 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Music For The Masses.jpg'
+  },
+  {
+    title: 'Depeche Mode - Black Celebration (1986)',
+    price: '5 700 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Black Celebration.jpg'
+  },
+  {
+    title: 'Depeche Mode - Violator (1990)',
+    price: '5 900 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Violator.jpg'
+  },
+  {
+    title: 'Depeche Mode - Ultra (1996)',
+    price: '5 100 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Ultra.jpg'
+  },
+  {
+    title: 'Depeche Mode - Speak & Spell (1981)',
+    price: '4 600 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Speak & Spell.jpg'
+  },
+  {
+    title: 'Depeche Mode - Some Great Reward (1984)',
+    price: '5 700 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Some Great Reward.jpg'
+  },
+  {
+    title: 'Depeche Mode - Construction Time Again (1983)',
+    price: '4 900 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Construction Time Again.jpg'
+  },
+  {
+    title: 'Depeche Mode - Playing The Angel (2005)',
+    price: '5 300 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Playing The Angel.jpg'
+  },
+  {
+    title: 'Depeche Mode - Exciter (2001)',
+    price: '5 200 руб.',
+    imageUrl: '/vinyl/Depeche Mode - Exciter.jpg'
+  },
+  {
+    title: 'Depeche Mode - A Broken Frame (1982)',
+    price: '4 600 руб.',
+    imageUrl: '/vinyl/Depeche Mode - A Broken Frame.jpg'
+  },
+];
+
 function App() {
   return <div className="wrapper clear">
 
@@ -20,176 +83,12 @@ function App() {
       </div>
 
       <div className="vinyl d-flex flex-wrap">
-        <Card />
-
-
-        {/* <section>
-          <div className="card">
-            <img width={133} heigh={112} src="/vinyl/Depeche Mode - Songs Of Faith And Devotion.jpg" alt="vinyl" />
-            <h5>LP Depeche Mode - Songs Of Faith And Devotion (1993)</h5>
-            <div className="cardButton d-flex justify-between align-center">
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <strong> 5 700 руб.</strong>
-              </div>
-              <button className="button">
-                <img src="/img/add.svg" alt="add" />
-              </button>
-            </div>
-          </div>
-        </section> */}
-
-        {/* <section>
-          <div className="card">
-            <img width={133} heigh={112} src="/vinyl/Depeche Mode - Music For The Masses.jpg" alt="vinyl" />
-            <h5>LP Depeche Mode - Music For The Masses (1987)</h5>
-            <div className="cardButton d-flex justify-between align-center">
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <strong> 5 800 руб.</strong>
-              </div>
-              <button className="button">
-                <img src="/img/add.svg" alt="add" />
-              </button>
-            </div>
-          </div>
-        </section> */}
-
-        {/* <section>
-          <div className="card">
-            <img width={133} heigh={112} src="/vinyl/Depeche Mode - Black Celebration.jpg" alt="vinyl" />
-            <h5>LP Depeche Mode - Black Celebration (1986)</h5>
-            <div className="cardButton d-flex justify-between align-center">
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <strong> 5 700 руб.</strong>
-              </div>
-              <button className="button">
-                <img src="/img/add.svg" alt="add" />
-              </button>
-            </div>
-          </div>
-        </section> */}
-
-        {/* <section>
-          <div className="card">
-            <img width={133} heigh={112} src="/vinyl/Depeche Mode - Violator.jpg" alt="vinyl" />
-            <h5>LP Depeche Mode - Violator (1990)</h5>
-            <div className="cardButton d-flex justify-between align-center">
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <strong> 5 900 руб.</strong>
-              </div>
-              <button className="button">
-                <img src="/img/add.svg" alt="add" />
-              </button>
-            </div>
-          </div>
-        </section> */}
-
-        {/* <section>
-          <div className="card">
-            <img width={133} heigh={112} src="/vinyl/Depeche Mode - Ultra.jpg" alt="vinyl" />
-            <h5>LP Depeche Mode - Ultra (1996)</h5>
-            <div className="cardButton d-flex justify-between align-center">
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <strong> 5 100 руб.</strong>
-              </div>
-              <button className="button">
-                <img src="/img/add.svg" alt="add" />
-              </button>
-            </div>
-          </div>
-        </section> */}
-
-        {/* <section>
-          <div className="card">
-            <img width={133} heigh={112} src="/vinyl/Depeche Mode - Speak & Spell.jpg" alt="vinyl" />
-            <h5>LP Depeche Mode - Speak & Spell (1981)</h5>
-            <div className="cardButton d-flex justify-between align-center">
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <strong> 4 600 руб.</strong>
-              </div>
-              <button className="button">
-                <img src="/img/add.svg" alt="add" />
-              </button>
-            </div>
-          </div>
-        </section> */}
-
-        {/* <section>
-          <div className="card">
-            <img width={133} heigh={112} src="/vinyl/Depeche Mode - Some Great Reward.jpg" alt="vinyl" />
-            <h5>LP Depeche Mode - Some Great Reward (1984)</h5>
-            <div className="cardButton d-flex justify-between align-center">
-              <div className="d-flex flex-column">
-                <span>Цена:</span>
-                <strong> 4 900 руб.</strong>
-              </div>
-              <button className="button">
-                <img src="/img/add.svg" alt="add" />
-              </button>
-            </div>
-          </div>
-        </section> */}
-
-        {/* <div className="card">
-          <img width={133} heigh={112} src="/vinyl/Depeche Mode - Construction Time Again.jpg" alt="vinyl" />
-          <h5>LP Depeche Mode - Construction Time Again (1983)</h5>
-          <div className="cardButton d-flex justify-between align-center">
-            <div className="d-flex flex-column">
-              <span>Цена:</span>
-              <strong> 4 900 руб.</strong>
-            </div>
-            <button className="button">
-              <img src="/img/add.svg" alt="add" />
-            </button>
-          </div>
-        </div>
-
-        <div className="card">
-          <img width={133} heigh={112} src="/vinyl/Depeche Mode - Playing The Angel.jpg" alt="vinyl" />
-          <h5>LP Depeche Mode - Playing The Angel (2005)</h5>
-          <div className="cardButton d-flex justify-between align-center">
-            <div className="d-flex flex-column">
-              <span>Цена:</span>
-              <strong> 5 300 руб.</strong>
-            </div>
-            <button className="button">
-              <img src="/img/add.svg" alt="add" />
-            </button>
-          </div>
-        </div>
-
-        <div className="card">
-          <img width={133} heigh={112} src="/vinyl/Depeche Mode - Exciter.jpg" alt="vinyl" />
-          <h5>LP Depeche Mode - Exciter (2001)</h5>
-          <div className="cardButton d-flex justify-between align-center">
-            <div className="d-flex flex-column">
-              <span>Цена:</span>
-              <strong> 5 200 руб.</strong>
-            </div>
-            <button className="button">
-              <img src="/img/add.svg" alt="add" />
-            </button>
-          </div>
-        </div>
-
-        <div className="card">
-          <img width={133} heigh={112} src="/vinyl/Depeche Mode - A Broken Frame.jpg" alt="vinyl" />
-          <h5>LP Depeche Mode - A Broken Frame (1982)</h5>
-          <div className="cardButton d-flex justify-between align-center">
-            <div className="d-flex flex-column">
-              <span>Цена:</span>
-              <strong> 4 600 руб.</strong>
-            </div>
-            <button className="button">
-              <img src="/img/add.svg" alt="add" />
-            </button>
-          </div>
-        </div> */}
+        {arr.map((obj) =>
+          <Card
+            title={obj.title}
+            price={obj.price}
+            imageUrl={obj.imageUrl} />,
+        )}
 
       </div>
     </main >

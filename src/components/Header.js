@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <header className="header d-flex justify-between align-center p-40">
+        <header className="header d-flex justify-between align-center p-40 {styles.card}" >
 
             <div className="headerLeft d-flex align-center">
                 <img width={40} heigh={40} src="/vinyl/vinyl.jpg" alt="logo" />
